@@ -147,6 +147,12 @@ button{
     background-image: url(../Images/Rectangle\ 8\ \(1\).png);
     background-repeat: no-repeat;
 }
+/* .newsletter-sticker>.sticker-container{
+    width: 21rem;
+    height: 7rem;
+    flex-shrink: 0;
+} */
+
 .newsletter-sticker{
     position: relative;
     top: 45%;
@@ -225,9 +231,56 @@ hr{
         width: 100%;
         height: 100%;
     }
+    .newsletter-section{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+    .newsletter-form-section{
+        width: 80%;
+        height: 100%;
+        /* width: 21rem;
+        height: 22rem; */
+        flex-shrink: 0;
+        border: 1px solid #FF5400;
+        border-radius: 1rem;
+        padding: 1.5rem;
+    }
+    .newsletter-box>form>hr{
+        background: rgba(19, 19, 24, 0.10);
+        width: 18rem;
+        margin-top: 1rem;
+        margin-left: 0.25rem;
+    }
+    .newsletter-box>form>input{
+        border: 0;
+        width: 18rem;
+        height: 3.25rem;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: rgba(19, 19, 24, 0.05);
+        margin: 0.5rem;
+    }
+    .newsletter-box>form>button{
+        width: 18rem;
+        height: 3.25rem;
+        flex-shrink: 0;
+        margin-left: 0.5rem;
+    }
+    .newsletter-photo-section{
+        margin-top: 1rem;
+        background-image: url(../Images/Rectangle\ 8\ short.png);
+        background-repeat: no-repeat;
+    }
+    .newsletter-sticker{
+        position: relative;
+        top: 30%;
+        left: 10%;
+    }
+    
     .footer{
         width: 100%;
-        
         flex-shrink: 0;
     }
     .footer-company-name{
