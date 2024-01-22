@@ -19,6 +19,40 @@
     border-radius: 16px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
 }
+
+.banner-form{
+    display: inline-flex;
+    padding: 1rem;
+    align-items: flex-start;
+    gap: 1.5rem;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.30);
+    position: relative;
+    left: 15%;
+    width: 50rem;
+}
+.banner-form>input{
+    width: 11rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+.banner-form>select{
+    width: 11rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+.banner-form>input::placeholder{
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .popular-tour-container{
     display: flex;
     justify-content: center;
@@ -72,7 +106,13 @@ button{
     font-weight: 800;
     line-height: normal;
 }
+button:hover{
+    transform: scale(0.9);
+}
 /* Choose your destination */
+.pic:hover{
+    transform: scale(0.9);
+}
 .choose-your-destination-container{
     margin: 5rem 8rem 5rem;
 }
