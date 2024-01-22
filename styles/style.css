@@ -100,20 +100,98 @@ button{
     font-weight: 400;
     line-height: 1.5rem; /* 162.5% */
     padding-left: 18rem;
+    padding-bottom: 1.5rem;
     /* padding-right: 25rem; */
 }
 .album-first-row{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 .album-second-row{
     display: flex;
-    justify-content: space-between; 
+    justify-content: center; 
+    gap: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 .album-third-row{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-bottom: 1.5rem;
 }
+.row1-col1{
+    width: 35rem;
+    height: 19rem;
+    flex-shrink: 0;
+    background-image: url(../Images/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+}
+.choose-destination{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 38%;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.row1-col2{
+    width: 36rem;
+    height: 19rem;
+    flex-shrink: 0;
+    background-image: url(../Images/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+}
+.row2-col1{
+    width: 23rem;
+    height: 19rem;
+    flex-shrink: 0;
+    background-image: url(../Images/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+}
+.row2-col2{
+    width: 30rem;
+    height: 19rem;
+    flex-shrink: 0;
+    background-image: url(../Images/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+}
+.row2-col3{
+    width: 16.5rem;
+    height: 19rem;
+    flex-shrink: 0;
+    background-image: url(../Images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+}
+.row3-col1{
+    width: 30rem;
+    height: 19rem;
+    flex-shrink: 0;
+    background-image: url(../Images/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+}
+.row3-col2{
+    width: 42rem;
+    height: 19rem;
+    flex-shrink: 0;
+    background-image: url(../Images/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+}
+
 /* why choose us section */
 .why-choose-us-section{
     margin: 5rem 8rem 5rem;
