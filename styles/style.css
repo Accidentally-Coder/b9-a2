@@ -678,6 +678,73 @@ hr {
     height: 100%;
   }
 
+  /* choose your destination */
+  .choose-your-destination-container {
+    margin: 1.5rem 1rem 1.5rem;
+  }
+
+  .choose-destination-text {
+    padding-bottom: 12%;
+  }
+
+  .choose-destination-text>h1 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .choose-destination-text>p {
+    width: 100%;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding-left: 0%;
+  }
+
+  .album-first-row,
+  .album-second-row,
+  .album-third-row {
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .row1-col1,
+  .row1-col2,
+  .row2-col1,
+  .row2-col2,
+  /* .row2-col3, */
+  .row3-col1,
+  .row3-col2 {
+    width: 100%;
+  }
+
+  .row2-col3 {
+    background-image: url(../Images/Rectangle\ 9-2.png);
+    /* width: 40rem;
+    height: 100%; */
+    width: 335px;
+    height: 176px;
+    flex-shrink: 0;
+  }
+
+
+
+
+
+
   /* why choose us section for mobile view */
   .why-choose-us-section {
     margin: 1.5rem 1rem 1.5rem;
