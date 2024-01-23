@@ -4,8 +4,42 @@
   font-family: 'Mulish', sans-serif;
 }
 
+/* header section */
+.navbar {
+  padding: 3rem 8.5rem 3rem;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.nav-item {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 2rem;
+}
+
+.nav-item>li {
+  color: var(--Dark-02, #424247);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.logo-name {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+/* banner section */
 .banner {
-  margin: 146px 160px 0px 160px;
+  margin: 0px 160px 0px 160px;
   width: 1170px;
   height: 500px;
   flex-shrink: 0;
