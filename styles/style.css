@@ -4,6 +4,10 @@
   font-family: 'Mulish', sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /* header section */
 .navbar {
   padding: 3rem 10rem 3rem;
@@ -1254,6 +1258,11 @@ hr {
   }
 
   .package-button-container {
+    display: none;
+  }
+
+  /* perfect place section */
+  .perfect-place-section {
     display: none;
   }
 
