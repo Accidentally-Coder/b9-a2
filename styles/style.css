@@ -644,6 +644,89 @@ button:hover {
   width: 13rem;
 }
 
+/* perfect place section */
+.perfect-place-section {
+  margin: 5rem 8rem 5rem;
+}
+
+.perfect-place-section>ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.perfect-place-left-col {
+  padding-right: 4rem;
+}
+
+.perfect-place-left-col>h1 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 3.5rem;
+  /* 150% */
+}
+
+.perfect-place-left-col>p {
+  color: #5A5A5D;
+  font-family: Mulish;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  /* 162.5% */
+}
+
+.perfect-place-left-col>ul {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5rem;
+  /* 162.5% */
+}
+
+.perfect-place-right-col {
+  width: 38rem;
+  height: 26.5rem;
+  flex-shrink: 0;
+  background-image: url(../Images/Group\ 40089.png);
+  background-repeat: no-repeat;
+}
+
+.perfect-place-right-col>h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.5rem;
+  position: relative;
+  top: 30%;
+}
+
+.left-play {
+  position: relative;
+  top: 55%;
+  left: 3%;
+}
+
+.right-play {
+  position: relative;
+  top: 48%;
+  left: 85%;
+}
+
+#line {
+  position: relative;
+  top: 48%;
+  left: 3%;
+}
+
 /* newsletter section */
 .newsletter-section {
   display: flex;
