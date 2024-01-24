@@ -980,8 +980,6 @@ hr {
 
   .row2-col3 {
     background-image: url(../Images/Rectangle\ 9-2.png);
-    /* width: 40rem;
-    height: 100%; */
     width: 335px;
     height: 176px;
     flex-shrink: 0;
@@ -1106,6 +1104,74 @@ hr {
     background: rgba(225, 15, 50, 0.05);
     justify-content: center;
     text-align: center;
+  }
+
+  /* deals and discounts section for mobile view */
+  .deals-and-discounts-section {
+    margin: 1.5rem 1rem 1.5rem;
+  }
+
+  .deals-text {
+    padding-bottom: 12%;
+  }
+
+  .deals-text>h1 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .deals-text>p {
+    display: flex;
+    justify-content: center;
+    width: 20rem;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding-left: 8%;
+    padding-bottom: 5rem;
+  }
+
+  .deal {
+    width: auto;
+    height: 31rem;
+    flex-shrink: 0;
+    border-radius: 1rem;
+  }
+
+  .deal-box {
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 1rem;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    position: relative;
+    top: 10%;
+    left: 0%;
+  }
+
+  .deal-box-text {
+    width: 100%;
+    height: 60%;
+    padding: 2%;
+  }
+
+  .deal-type2>.deal-box {
+    left: 0%;
+  }
+
+  .package-button-container {
+    display: none;
   }
 
   /* newsletter section */
