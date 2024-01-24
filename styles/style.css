@@ -855,7 +855,9 @@ footer {
 }
 
 .footer-icons {
-  padding: 0px 633px 50px 633px;
+  /* padding: 0px 633px 50px 633px; */
+  padding: 0px 0px 50px 633px;
+
 }
 
 hr {
