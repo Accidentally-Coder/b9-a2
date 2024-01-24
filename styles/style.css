@@ -79,8 +79,9 @@
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
-  margin: 0px;
-  padding: 0px 250px 5px 250px;
+  width: 42rem;
+  margin: auto;
+  /* padding: 0px 250px 5px 250px; */
 }
 
 .banner-form {
@@ -376,6 +377,8 @@ button:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5rem;
+  width: 40rem;
+  margin: auto;
   /* 162.5% */
 }
 
@@ -876,7 +879,11 @@ hr {
 }
 
 
+/*                                 */
+/*                                 */
 /* for small screen 600px and down */
+/*                                 */
+/*                                 */
 
 @media screen and (max-width:600px) {
 
@@ -939,7 +946,7 @@ hr {
     line-height: 1rem;
     /* 150% */
     /* border: 1px solid black; */
-    padding-left: 5%;
+    /* padding-left: 5%; */
   }
 
   .banner-form {
@@ -1095,6 +1102,7 @@ hr {
     font-style: normal;
     font-weight: 400;
     line-height: 1.5rem;
+    /* margin: auto; */
     padding-left: 8%;
   }
 
